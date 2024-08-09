@@ -1,0 +1,99 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+background-color: aqua;
+background-image: url(./img/pixel-art-digital-art-2247040-wallhere.com.jpg);
+background-size: cover;
+height: 100vh;
+}
+
+.painel {
+
+     background-color: crimson;
+     border: 5px solid black;
+     height: 500px;
+     width: 400px;
+     border-radius: 10px;
+     text-align: center;
+     color: whitesmoke;
+     margin: auto;
+     margin-top: 30px;
+     box-shadow: 3px 3px 15px black;
+}
+
+.frontal {
+width: 45%;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+}
+
+#pokebola {
+width: 35px;
+}
+
+#tela {
+margin: auto;
+background-color: #3f0ec4;
+background-image: url(./img/images\ azulzin.jpg);
+z-index: -5;
+background-size: cover;
+border-radius: 5px solid grey;
+width: 300px;
+height: 285px;
+margin-bottom: 10px;
+border-radius: 10px;
+animation: carregar 5s alternate;
+}
+
+@keyframes carregar {
+0% {height: 0%;}
+100% { }
+
+
+}
+
+p, h2 {
+    background-color: rgba(rgb(0, 0, 0), green, blue, alpha);
+    width: 250px;
+    }
+
+
+p { margin: auto;}
+
+h2 {
+    margin: 40px;
+    border-radius: 10px;
+}
+
+#entrada {
+height: 30px;
+text-align: center;
+border-radius: 10px;
+}
+
+button {
+height: 35px;
+margin: 7px;
+background-color: black;
+color: white;
+border: 3px solid grey;
+border-radius: 10px;
+box-shadow: 3px 3px 5px black;
+width: 80px;
+
+}
+
+button:hover {
+background-color: black;
+cursor: pointer;
+margin-top: 15px;
+box-shadow: 1px 1px 5px black;
+}
